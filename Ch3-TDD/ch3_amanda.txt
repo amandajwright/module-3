@@ -1,0 +1,12 @@
+Implementation of test-driven development:
+	write a test
+	test fails as there is no code
+	write the minimum code to make the test pass
+	write another test
+	test fails
+	adapt and extend current code
+	repeat until you can write no more tests
+Repeat this process for every feature, as necessary.
+
+Rule 1: You don't write functional code, unless it makes one test pass.
+Rule 2: You only write the code you need to make that one test pass.
