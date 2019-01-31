@@ -8,10 +8,10 @@ Created on Mon Jan 28 12:20:36 2019
 import unittest
 from funcs import *
 
-class test_phonebook(unittest.TestCase):
+class TestPhonebook(unittest.TestCase):
     def test_get_db(self):
         self.assertTrue(check_db("phonebook.db"))
-        self.assertNotNone(get_db())
+        self.assertIsNotNone(get_db())
         
 if __name__ == ("__main__"):
     unittest.main()
