@@ -26,7 +26,7 @@ def person_search(name, postcode):
     if len(persons) == 0:
         return "Sorry, your search produced no results."
     else:
-        if postcode != None:
+        if postcode != "":
             persons = narrow_by_location(persons, postcode)
             if len(persons) == 0:
                 return "Sorry, your search produced no results."
@@ -40,7 +40,7 @@ def business_name_search(business_name, postcode):
     if len(businesses) == 0:
         return "Sorry, your search produced no results."
     else:
-        if postcode != None:
+        if postcode != "":
             businesses = narrow_by_location(businesses, postcode)
             if len(businesses) == 0:
                 return "Sorry, your search produced no results."
@@ -54,7 +54,7 @@ def business_type_search(business_type, postcode):
     if len(businesses) == 0:
         return "Sorry, your search produced no results."
     else:
-        if postcode != None:
+        if postcode != "":
             businesses = narrow_by_location(businesses, postcode)
             if len(businesses) == 0:
                 return "Sorry, your search produced no results."
@@ -86,3 +86,4 @@ def narrow_by_location(results_list, postcode):
             else:
                 results = results
         return results
+ 
