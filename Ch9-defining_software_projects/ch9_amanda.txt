@@ -1,0 +1,31 @@
+Phonebook project
+
+1. Ideation
+Checking out current BT phoneboke website. Thinking about what feature we'd like to retain/develop.
+Visit from BT developer to give insight into project requirements and potential ways of approaching the project.
+
+2. Requirements gathering
+The story cards in the project outline: "Given I... When I... Then I..."
+Team of three trainee developers, with similar levels of python/flask/js experience and knowledge. Also an instructor on hand to help with problems! Also the internet.
+
+3. Development
+First created an app that worked on the command line. Then introduced flask and refactored code accordingly. Then introduced some js and refactored code again!
+Broke code down into as simple as possible functions. Applied clean code principles.
+
+4. Testing
+Unit testing and integration testing on command line version. Validation testing on flask version.
+User acceptance testing (between us and on presentation to instructor).
+
+5. Deployment
+Getting project on to Heroku as an app.
+Presentation to class.
+
+6. Maintenance
+Maybe update database with fuller data?
+Have database on github so can be accessed after course has finished and laptops handed back.
+
+MoSCoW:
+Must have: both person and business search options; business type and name search options; error for null results; full details of searched-for thing; distance from given location
+Should have: option to order by distance or by name; option to 'search again'
+Could have: option to search by town name or by postcode
+Will not: return 50 results per results page
